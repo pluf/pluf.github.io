@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+	<title>Pluf API Documentation</title>
+	<parser>
+		<target>../phpdoc-tmp</target>
+		<encoding>utf8</encoding>
+		<markers>
+			<item>TODO</item>
+			<item>FIXME</item>
+		</markers>
+		<extensions>
+			<extension>php</extension>
+		</extensions>
+		<visibility></visibility>
+	</parser>
+	<transformer>
+		<target>.</target>
+	</transformer>
+
+	<files>
+		<directory>../*/src</directory>
+		<directory>../*/src6</directory>
+		<ignore>../*/tests/*</ignore>
+		<ignore>../*/vendore/*</ignore>
+		<ignore>urls.php</ignore>
+		<ignore>*/urls/*.php</ignore>
+		<ignore>*/urls-*.php</ignore>
+		<ignore>index.php</ignore>
+	</files>
+</phpdoc>
